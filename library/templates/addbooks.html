@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+
+<center>
+<h2>Add books</h2>
+<div class="mb-3">
+
+    <form method="POST">
+        {% csrf_token %}
+  <label  class="form-label">TITLE</label>
+  <input type="text" class="form-control"name="t" placeholder="Enter the title">
+</div>
+<div class="mb-3">
+    <form>
+  <label  class="form-label">AUTHOR</label>
+  <input type="text" class="form-control"name="a" placeholder="enter the author">
+</div>
+<div class="mb-3">
+    <form>
+  <label  class="form-label">PRICE</label>
+  <input type="number" class="form-control" name="p" placeholder="Enter the price">
+</div>
+<div class="mb-3">
+
+    <form>
+  <label  class="form-label"></label>
+  <input type="text" class="form-control" placeholder="">
+</div>
+
+<div class="mb-3">
+    <form>
+        </center>
+
+
+  <input type="submit" class="form-control" >
+</div>
+    </form>
+
+
+
+
+
+
+
+
+{% endblock %}
+

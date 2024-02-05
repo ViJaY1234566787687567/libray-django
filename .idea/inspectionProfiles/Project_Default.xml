@@ -1,0 +1,14 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="pro1.myapp.views.template_name" />
+          <option value="ecommeraces.shop.context_processors.Category" />
+          <option value="ecommeraces.shop.context_processors.shop" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
